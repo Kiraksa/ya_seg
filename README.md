@@ -127,15 +127,17 @@ data/
 
 ```text
 practicum_work
-├── README.md
 ├── outputs
+│   ├── # визуализации
 │   ├── unet_test_vis
 │   ├── unet_val_eval
 │   ├── . . .
 ├── overlays
+│   ├── # оверлеи исходных данных
 │   ├── train
 │   ├── val
 ├── work_dirs
+│   ├── # логи
 │   ├── unet_fcn-256
 │   ├── unet_fcn-256_v2
 │   ├── unet_fcn-256_v3
